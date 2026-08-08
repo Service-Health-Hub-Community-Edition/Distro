@@ -1,0 +1,85 @@
+{
+    "Mapping": [
+        {
+            "Name": "Id",
+            "EntityProperty": "WorkItemId",
+            "Destination": "System.Id",  
+            "IncludeForCreate": "false",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Title",
+            "EntityProperty": "Title",
+            "Destination": "System.Title",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Description",
+            "EntityProperty": "Description",
+            "Destination": "System.Description",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "History",
+            "EntityProperty": "History",
+            "Destination": "System.History", 
+            "Translatable": true,    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Service",
+            "EntityProperty": "ServiceArea",
+            "Destination": "Custom.SHHService",       
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Disposition",
+            "EntityProperty": "Disposition",
+            "Destination": "Custom.SHHDisposition",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Impact",
+            "EntityProperty": "Impact",
+            "Destination": "Custom.SHHImpact",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Version",
+            "EntityProperty": "Version",
+            "Destination": "Custom.SHHVersion",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Action required by",
+            "EntityProperty": "ActionRequiredBy",
+            "Destination": "Custom.SHHActionrequiredby",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Last update",
+            "EntityProperty": "LastModified",
+            "Destination": "Custom.SHHLastupdate",         
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Tags",
+            "EntityProperty": "ADOTags",
+            "Destination": "System.Tags",
+            "Type": "System.String",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        }
+    ]
+}

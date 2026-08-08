@@ -1,0 +1,204 @@
+{
+    "Mapping": [
+        {
+            "Name": "Id",
+            "EntityProperty": "WorkItemId",
+            "Destination": "System.Id",  
+            "IncludeForCreate": "false",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Title",
+            "EntityProperty": "Title",
+            "Destination": "System.Title",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Description",
+            "EntityProperty": "Description",
+            "Destination": "System.Description",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "History",
+            "EntityProperty": "History",
+            "Destination": "System.History",
+            "Translatable": true,    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Value",
+            "EntityProperty": "BusinessValue",
+            "Destination": "Custom.SHHValue",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "FeatureId",
+            "EntityProperty": "Id",
+            "Destination": "Custom.SHHFeatureId",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "FeatureType",
+            "EntityProperty": "FeatureType",
+            "Destination": "Custom.SHHFeaturetype",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Product",
+            "EntityProperty": "Product",
+            "Destination": "Custom.SHHProduct",      
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "ProductArea",
+            "EntityProperty": "ProductArea",
+            "Destination": "Custom.SHHProductarea",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "ParentProduct",
+            "EntityProperty": "ParentProduct",
+            "Destination": "Custom.SHHParentproduct",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "EnabledFor",
+            "EntityProperty": "EnabledFor",
+            "Destination": "Custom.SHHEnabledfor",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "ReleaseWaveId",
+            "EntityProperty": "ReleaseWaveId",
+            "Destination": "Custom.SHHReleasewaveId",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "ReleaseWave",
+            "EntityProperty": "ReleaseWave",
+            "Destination": "Custom.SHHReleasewave",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "RWStartShipDate",
+            "EntityProperty": "RWStartShipDate",
+            "Destination": "Custom.SHHStartshipdate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "RWEndShipDate",
+            "EntityProperty": "RWEndShipDate",
+            "Destination": "Custom.SHHEndshipdate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "RW_Status",
+            "EntityProperty": "RW_Status",
+            "Destination": "Custom.SHHStatus",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "EarlyAccessDate",
+            "EntityProperty": "EarlyAccessDate",
+            "Destination": "Custom.SHHEarlyaccessdate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "EarlyAccessStatus",
+            "EntityProperty": "EarlyAccessStatus",
+            "Destination": "Custom.SHHEarlyaccessstatus",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "PublicPreviewDate",
+            "EntityProperty": "PublicPreviewDate",
+            "Destination": "Custom.SHHPublicpreviewdate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "PublicPreviewStatus",
+            "EntityProperty": "PublicPreviewStatus",
+            "Destination": "Custom.SHHPublicpreviewstatus",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "GADate",
+            "EntityProperty": "GADate",
+            "Destination": "Custom.SHHGeneralavailabilitydate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "GAStatus",
+            "EntityProperty": "GAStatus",
+            "Destination": "Custom.SHHGeneralavailabilitystatus",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Documentation",
+            "EntityProperty": "Documentation",
+            "Destination": "Custom.SHHDocumentation",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "BlogArticle",
+            "EntityProperty": "BlogArticle",
+            "Destination": "Custom.SHHBlogarticle",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "OverviewVideo",
+            "EntityProperty": "OverviewVideo",
+            "Destination": "Custom.SHHOverviewvideo",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Published",
+            "EntityProperty": "Published",
+            "Destination": "Custom.SHHPublished",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "LastUpdate",
+            "EntityProperty": "LastUpdate",
+            "Destination": "Custom.SHHLastupdate",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Tags",
+            "EntityProperty": "Tags",
+            "Destination": "System.Tags",
+            "Type": "System.String",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        }
+    ]
+}

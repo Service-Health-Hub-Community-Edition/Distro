@@ -1,0 +1,546 @@
+[
+    {
+        "id": "Custom.SHHImpactedservicesandregions",
+        "url": null,
+        "description": "",
+        "name": "SHH Impacted services and regions",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHSubscriptions",
+        "url": null,
+        "description": "",
+        "name": "SHH Subscriptions",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHServices",
+        "url": null,
+        "description": "",
+        "name": "SHH Services",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHSeverity",
+        "url": null,
+        "description": "",
+        "name": "SHH Severity",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHStatus",
+        "url": null,
+        "description": "",
+        "name": "SHH Status",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHResolved",
+        "url": null,
+        "description": "",
+        "name": "SHH Resolved",
+        "type": "boolean",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHIncidenttype",
+        "url": null,
+        "description": "",
+        "name": "SHH Incident type",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHImpacttype",
+        "url": null,
+        "description": "",
+        "name": "SHH Impact type",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHStarttime",
+        "url": null,
+        "description": "",
+        "name": "SHH Start time",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHEndtime",
+        "url": null,
+        "description": "",
+        "name": "SHH End time",
+        "type": "datetime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHLastupdate",
+        "url": null,
+        "description": "",
+        "name": "SHH Last update",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHVersion",
+        "url": null,
+        "description": "",
+        "name": "SHH Version",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHType",
+        "url": null,
+        "description": "",
+        "name": "SHH Type",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHSource",
+        "url": null,
+        "description": "",
+        "name": "SHH Source",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHResource",
+        "url": null,
+        "description": "",
+        "name": "SHH Resource",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHFeaturestate",
+        "url": null,
+        "description": "",
+        "name": "SHH Feature state",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHMajorchange",
+        "url": null,
+        "description": "",
+        "name": "SHH Major change",
+        "type": "boolean",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasedate",
+        "url": null,
+        "description": "",
+        "name": "SHH Release date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHActionrequiredby",
+        "url": null,
+        "description": "",
+        "name": "SHH Action required by",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHService",
+        "url": null,
+        "description": "",
+        "name": "SHH Service",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHDisposition",
+        "url": null,
+        "description": "",
+        "name": "SHH Disposition",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHImpact",
+        "url": null,
+        "description": "",
+        "name": "SHH Impact",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHFeatureId",
+        "url": null,
+        "description": "",
+        "name": "SHH Feature Id",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHProducts",
+        "url": null,
+        "description": "",
+        "name": "SHH Products",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPlatforms",
+        "url": null,
+        "description": "",
+        "name": "SHH Platforms",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHCloudinstances",
+        "url": null,
+        "description": "",
+        "name": "SHH Cloud instances",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublished",
+        "url": null,
+        "description": "",
+        "name": "SHH Published",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHRoadmapitemUrl",
+        "url": null,
+        "description": "",
+        "name": "SHH Roadmap item Url",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHMoreinformation",
+        "url": null,
+        "description": "",
+        "name": "SHH More information",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublicpreview",
+        "url": null,
+        "description": "",
+        "name": "SHH Public preview",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublicpreviewfrom",
+        "url": null,
+        "description": "",
+        "name": "SHH Public preview from",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublicpreviewbefore",
+        "url": null,
+        "description": "",
+        "name": "SHH Public preview before",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHGeneralavailability",
+        "url": null,
+        "description": "",
+        "name": "SHH General availability",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHDeploymentfrom",
+        "url": null,
+        "description": "",
+        "name": "SHH Deployment from",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHDeploymentbefore",
+        "url": null,
+        "description": "",
+        "name": "SHH Deployment before",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHImpactdescription",
+        "url": null,
+        "description": "",
+        "name": "SHH Impact description",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHFeaturegroup",
+        "url": null,
+        "description": "",
+        "name": "SHH Feature group",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHFeature",
+        "url": null,
+        "description": "",
+        "name": "SHH Feature",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHClassification",
+        "url": null,
+        "description": "",
+        "name": "SHH Classification",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHOrigin",
+        "url": null,
+        "description": "",
+        "name": "SHH Origin",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHBlogarticle",
+        "url": null,
+        "description": "",
+        "name": "SHH Blog article",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHDocumentation",
+        "url": null,
+        "description": "",
+        "name": "SHH Documentation",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHExternallink",
+        "url": null,
+        "description": "",
+        "name": "SHH External link",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHCategory",
+        "url": null,
+        "description": "",
+        "name": "SHH Category",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHSummary",
+        "url": null,
+        "description": "",
+        "name": "SHH Summary",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHArticle",
+        "url": null,
+        "description": "",
+        "name": "SHH Article",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHCommunicationId",
+        "url": null,
+        "description": "",
+        "name": "SHH Communication Id",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasestatus",
+        "url": null,
+        "description": "",
+        "name": "SHH Release status",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHValue",
+        "url": null,
+        "description": "",
+        "name": "SHH Value",
+        "type": "html",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHOverviewvideo",
+        "url": null,
+        "description": "",
+        "name": "SHH Overview video",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHFeaturetype",
+        "url": null,
+        "description": "",
+        "name": "SHH Feature type",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHProduct",
+        "url": null,
+        "description": "",
+        "name": "SHH Product",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHProductarea",
+        "url": null,
+        "description": "",
+        "name": "SHH Product area",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHParentproduct",
+        "url": null,
+        "description": "",
+        "name": "SHH Parent product",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHEnabledfor",
+        "url": null,
+        "description": "",
+        "name": "SHH Enabled for",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasewaveId",
+        "url": null,
+        "description": "",
+        "name": "SHH Release wave Id",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasewave",
+        "url": null,
+        "description": "",
+        "name": "SHH Release wave",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHStartshipdate",
+        "url": null,
+        "description": "",
+        "name": "SHH Start ship date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHEndshipdate",
+        "url": null,
+        "description": "",
+        "name": "SHH End ship date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHEarlyaccessdate",
+        "url": null,
+        "description": "",
+        "name": "SHH Early access date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHEarlyaccessstatus",
+        "url": null,
+        "description": "",
+        "name": "SHH Early access status",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublicpreviewdate",
+        "url": null,
+        "description": "",
+        "name": "SHH Public preview date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHPublicpreviewstatus",
+        "url": null,
+        "description": "",
+        "name": "SHH Public preview status",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHGeneralavailabilitydate",
+        "url": null,
+        "description": "",
+        "name": "SHH General availability date",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHGeneralavailabilitystatus",
+        "url": null,
+        "description": "",
+        "name": "SHH General availability status",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasestate",
+        "url": null,
+        "description": "",
+        "name": "SHH Releasestate",
+        "type": "string",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasestateupdatedon",
+        "url": null,
+        "description": "",
+        "name": "SHH Release state updated on",
+        "type": "dateTime",
+        "pickList": null
+    },
+    {
+        "id": "Custom.SHHReleasestatedetails",
+        "url": null,
+        "description": "",
+        "name": "SHH Release state details",
+        "type": "html",
+        "pickList": null
+    }
+]

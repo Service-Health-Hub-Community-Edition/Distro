@@ -1,0 +1,134 @@
+{
+    "Mapping": [
+        {
+            "Name": "Id",
+            "EntityProperty": "WorkItemId",
+            "Destination": "System.Id",
+            "IncludeForCreate": "false",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Title",
+            "EntityProperty": "Title",
+            "Destination": "System.Title",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Description",
+            "EntityProperty": "Description",
+            "Destination": "System.Description",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "History",
+            "EntityProperty": "History",
+            "Destination": "System.History",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Id",
+            "EntityProperty": "Id",
+            "Destination": "Custom.SHHCommunicationId",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Severity",
+            "EntityProperty": "Severity",
+            "Destination": "Custom.SHHSeverity",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Services",
+            "EntityProperty": "Services",
+            "Destination": "Custom.SHHServices",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Platforms",
+            "EntityProperty": "Platforms",
+            "Destination": "Custom.SHHPlatforms",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Category",
+            "EntityProperty": "Category",
+            "Destination": "Custom.SHHCategory",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "MajorChange",
+            "EntityProperty": "MajorChange",
+            "Destination": "Custom.SHHMajorchange",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Start time",
+            "EntityProperty": "StartTime",
+            "Destination": "Custom.SHHStarttime",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "End time",
+            "EntityProperty": "EndTime",
+            "Destination": "Custom.SHHEndtime",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Action required by",
+            "EntityProperty": "ActionRequiredBy",
+            "Destination": "Custom.SHHActionrequiredby",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Last update",
+            "EntityProperty": "LastModified",
+            "Destination": "Custom.SHHLastupdate",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Blog article",
+            "EntityProperty": "BlogLink",
+            "Destination": "Custom.SHHBlogarticle",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Documentation link",
+            "EntityProperty": "HelpLink",
+            "Destination": "Custom.SHHDocumentation",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "External link",
+            "EntityProperty": "ExternalLink",
+            "Destination": "Custom.SHHExternallink",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Tags",
+            "EntityProperty": "ADOTags",
+            "Destination": "System.Tags",
+            "Type": "System.String",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        }
+    ]
+}
