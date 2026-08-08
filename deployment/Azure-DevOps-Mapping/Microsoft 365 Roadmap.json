@@ -1,0 +1,147 @@
+{
+    "Mapping": [
+        {
+            "Name": "Id",
+            "EntityProperty": "WorkItemId",
+            "Destination": "System.Id",       
+            "IncludeForCreate": "false",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Title",
+            "EntityProperty": "Title",
+            "Destination": "System.Title",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Description",
+            "EntityProperty": "Description",
+            "Destination": "System.Description",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "History",
+            "EntityProperty": "Description",
+            "Destination": "System.History",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Status",
+            "EntityProperty": "Status",
+            "Destination": "Custom.SHHStatus",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "More information",
+            "EntityProperty": "MoreInfoLink",
+            "Destination": "Custom.SHHMoreinformation",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Products",
+            "EntityProperty": "Products",
+            "Destination": "Custom.SHHProducts",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Platforms",
+            "EntityProperty": "Platforms",
+            "Destination": "Custom.SHHPlatforms",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Cloud instances",
+            "EntityProperty": "CloudInstances",
+            "Destination": "Custom.SHHCloudinstances",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Published",
+            "EntityProperty": "Published",
+            "Destination": "Custom.SHHPublished",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Last updated",
+            "EntityProperty": "LastModified",
+            "Destination": "Custom.SHHLastupdate",          
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Availability date",
+            "EntityProperty": "Availability",
+            "Destination": "Custom.SHHGeneralavailability",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Deployment from",
+            "EntityProperty": "AvailabilityFrom",
+            "Destination": "Custom.SHHDeploymentfrom",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Deployment to",
+            "EntityProperty": "AvailabilityTo",
+            "Destination": "Custom.SHHDeploymentbefore",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Public preview",
+            "EntityProperty": "PublicPreview",
+            "Destination": "Custom.SHHPublicpreview",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Public preview from",
+            "EntityProperty": "PublicPreviewFrom",
+            "Destination": "Custom.SHHPublicpreviewfrom",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Public preview to",
+            "EntityProperty": "PublicPreviewTo",
+            "Destination": "Custom.SHHPublicpreviewbefore",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Roadmap item",
+            "EntityProperty": "RoadmapUrl",
+            "Destination": "Custom.SHHRoadmapitemUrl",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Feature Id",
+            "EntityProperty": "Id",
+            "Destination": "Custom.SHHFeatureId",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Tags",
+            "EntityProperty": "CategoryTags",
+            "Destination": "System.Tags",      
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        }
+    ]
+}

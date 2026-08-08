@@ -1,0 +1,120 @@
+{
+    "Mapping": [
+        {
+            "Name": "Id",
+            "EntityProperty": "WorkItemId",
+            "Destination": "System.Id",  
+            "IncludeForCreate": "false",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Title",
+            "EntityProperty": "Title",
+            "Destination": "System.Title",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Description",
+            "EntityProperty": "Description",
+            "Destination": "System.Description",
+            "Translatable": true,
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "History",
+            "EntityProperty": "History",
+            "Destination": "System.History", 
+            "Translatable": true,    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Severity",
+            "EntityProperty": "Severity",
+            "Destination": "Custom.SHHSeverity",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Subscriptions",
+            "EntityProperty": "SubscriptionsTextList",
+            "Destination": "Custom.SHHSubscriptions",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Impacted services and regions",
+            "EntityProperty": "ImpactedServicesDescription",
+            "Destination": "Custom.SHHImpactedservicesandregions",  
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Services",
+            "EntityProperty": "Services",
+            "Destination": "Custom.SHHServices",       
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Stage",
+            "EntityProperty": "Stage",
+            "Destination": "Custom.SHHStatus",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Resolved",
+            "EntityProperty": "IsResolved",
+            "Destination": "Custom.SHHResolved",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Incident type",
+            "EntityProperty": "Type",
+            "Destination": "Custom.SHHIncidenttype",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Impact type",
+            "EntityProperty": "ImpactType",
+            "Destination": "Custom.SHHImpacttype",    
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Start time",
+            "EntityProperty": "StartTime",
+            "Destination": "Custom.SHHStarttime",         
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "End time",
+            "EntityProperty": "EndTime",
+            "Destination": "Custom.SHHEndtime",        
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Last update",
+            "EntityProperty": "LastModified",
+            "Destination": "Custom.SHHLastupdate",         
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        },
+        {
+            "Name": "Tags",
+            "EntityProperty": "ADOTags",
+            "Destination": "System.Tags",
+            "Type": "System.String",
+            "IncludeForCreate": "true",
+            "IncludeForUpdate": "true"
+        }
+    ]
+}

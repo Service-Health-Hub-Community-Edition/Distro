@@ -1,0 +1,3090 @@
+[
+    {
+        "name": "Azure Service Health Alert",
+        "definition": {
+            "id": null,
+            "name": "Azure Service Health Alert",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "db552c",
+            "icon": "icon_github_issue",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Impactedservicesandregions",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Subscriptions",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Services",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Severity",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Status",
+                "required": false
+            },
+            {
+                "defaultValue": "False",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Resolved",
+                "required": true
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Incidenttype",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Impacttype",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Starttime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Endtime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section1",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Impacted services and regions",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Impactedservicesandregions",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Impacted services and regions",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Subscriptions",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Subscriptions",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Services",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Services",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Severity",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Severity",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Status",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Resolved",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Resolved",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Incident type",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Incidenttype",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Impact type",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Impacttype",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Start time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Starttime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "End time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Endtime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Azure Update",
+        "definition": {
+            "id": null,
+            "name": "Azure Update",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "007acc",
+            "icon": "icon_gift",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Summary",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Article",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_CommunicationId",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasestatus",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Published",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section1",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Summary",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Summary",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Summary",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Article",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Article",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Article",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Communication Id",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_CommunicationId",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Release status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasestatus",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Published",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Published",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Common Data Connector Alert V1",
+        "definition": {
+            "id": null,
+            "name": "Common Data Connector Alert V1",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "fbbc3d",
+            "icon": "icon_gear",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Type",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Source",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Resource",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Status",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Starttime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Endtime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Type",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Type",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Source",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Source",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Resource",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Resource",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Status",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Start time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Starttime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "End time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Endtime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Dynamics 365 and Power Platform Release",
+        "definition": {
+            "id": null,
+            "name": "Dynamics 365 and Power Platform Release",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "339947",
+            "icon": "icon_book",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Value",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Documentation",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Blogarticle",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Overviewvideo",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Published",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_FeatureId",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Featuretype",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Product",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Productarea",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Parentproduct",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Enabledfor",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_ReleasewaveId",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasewave",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Startshipdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Endshipdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Status",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Earlyaccessdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Earlyaccessstatus",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Publicpreviewdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Publicpreviewstatus",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Generalavailabilitydate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Generalavailabilitystatus",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section1",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Value",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Value",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Value",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Documentation",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Documentation",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Blog article",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Blogarticle",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Overview video",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Overviewvideo",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "More information",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Published",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Published",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Feature Id",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_FeatureId",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Feature type",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Featuretype",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Product",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Product",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Product area",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Productarea",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Parent product",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Parentproduct",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Enabled for",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Enabledfor",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Release wave Id",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_ReleasewaveId",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Release wave",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasewave",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Start ship date",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Startshipdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "End ship date",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Endshipdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Status",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Release wave",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Early access date",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Earlyaccessdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Early access status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Earlyaccessstatus",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Early access",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Public previe date",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Publicpreviewdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Public preview status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Publicpreviewstatus",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Public preview",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "General availability date",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Generalavailabilitydate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "General availability status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Generalavailabilitystatus",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "General availability",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Microsoft Service Health Hub Release",
+        "definition": {
+            "id": null,
+            "name": "Microsoft Service Health Hub Release",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "1b478b",
+            "icon": "icon_diamond",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Version",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Featurestate",
+                "required": false
+            },
+            {
+                "defaultValue": "False",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Majorchange",
+                "required": true
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasedate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Actionrequiredby",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Version",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Version",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Feature state",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Featurestate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Major change",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Majorchange",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Releasedate",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasedate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Action required by",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Actionrequiredby",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Office 365 Endpoint change",
+        "definition": {
+            "id": null,
+            "name": "Office 365 Endpoint change",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "db552c",
+            "icon": "icon_gavel",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Version",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Service",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Disposition",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Impact",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Actionrequiredby",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Version",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Version",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Service",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Service",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Disposition",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Disposition",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Impact",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Impact",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Action required by",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Actionrequiredby",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Microsoft 365 Roadmap",
+        "definition": {
+            "id": null,
+            "name": "Microsoft 365 Roadmap",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "339947",
+            "icon": "icon_list",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_FeatureId",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Products",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Platforms",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Cloudinstances",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Status",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Published",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_RoadmapitemUrl",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Moreinformation",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Publicpreview",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Publicpreviewfrom",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Publicpreviewbefore",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Generalavailability",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Deploymentfrom",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Deploymentbefore",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Feature Id",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_FeatureId",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Products",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Products",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Cloud instances",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Cloudinstances",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Status",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Published",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Published",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Roadmap item Url",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_RoadmapitemUrl",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Additional information",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Public preview",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Publicpreview",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Public preview from",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Publicpreviewfrom",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Public preview before",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Publicpreviewbefore",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Public preview",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "General availability",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Generalavailability",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Deployment from",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Deploymentfrom",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Deployment before",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Deploymentbefore",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "General availability",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Microsoft 365 Service Health",
+        "definition": {
+            "id": null,
+            "name": "Microsoft 365 Service Health",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "db552c",
+            "icon": "icon_flame",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Impactdescription",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Service",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Featuregroup",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Feature",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Status",
+                "required": false
+            },
+            {
+                "defaultValue": "False",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Resolved",
+                "required": true
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Classification",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Origin",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Moreinformation",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Starttime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Endtime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section1",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Impact description",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Impactdescription",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Impact description",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Service",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Service",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Feature group",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Featuregroup",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Feature",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Feature",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Status",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Status",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Resolved",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Resolved",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Classification",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Classification",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Origin",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Origin",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Start time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Starttime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "End time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Endtime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    },
+    {
+        "name": "Microsoft 365 Message Center",
+        "definition": {
+            "id": null,
+            "name": "Microsoft 365 Message Center",
+            "description": "",
+            "url": null,
+            "inherits": null,
+            "class": "custom",
+            "color": "009ccc",
+            "icon": "icon_megaphone",
+            "isDisabled": false
+        },
+        "fields": [
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Blogarticle",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Documentation",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Externallink",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_CommunicationId",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Services",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Platforms",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Category",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Severity",
+                "required": false
+            },
+            {
+                "defaultValue": "False",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Majorchange",
+                "required": true
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasestate",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasestateupdatedon",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Releasestatedetails",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Starttime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Endtime",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Actionrequiredby",
+                "required": false
+            },
+            {
+                "defaultValue": "",
+                "readOnly": false,
+                "referenceName": "Custom.SHH_Lastupdate",
+                "required": false
+            }
+        ],
+        "sections": [
+            {
+                "name": "Section1",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Blog article",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Blogarticle",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Documentation",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Documentation",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "External link",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Externallink",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "More information",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section2",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Communication Id",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_CommunicationId",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Services",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Services",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Platforms",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Platforms",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Category",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Category",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Severity",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Severity",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Major change",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Majorchange",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            },
+            {
+                "name": "Section3",
+                "groups": [
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Release state",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasestate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Release state updated on",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasestateupdatedon",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Release state",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Release state details",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Releasestatedetails",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Release state details",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    },
+                    {
+                        "controls": [
+                            {
+                                "order": null,
+                                "label": "Start time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Starttime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "End time",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Endtime",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Action required by",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Actionrequiredby",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            },
+                            {
+                                "order": null,
+                                "label": "Last update",
+                                "readOnly": false,
+                                "visible": true,
+                                "controlType": null,
+                                "id": "Custom.SHH_Lastupdate",
+                                "metadata": null,
+                                "inherited": null,
+                                "overridden": null,
+                                "watermark": null,
+                                "contribution": null,
+                                "height": null,
+                                "isContribution": false
+                            }
+                        ],
+                        "id": null,
+                        "label": "Timeline",
+                        "order": null,
+                        "inherited": null,
+                        "overridden": null,
+                        "visible": true,
+                        "contribution": null,
+                        "height": null,
+                        "isContribution": false
+                    }
+                ]
+            }
+        ],
+        "hideGroups": [
+            {
+                "name": "Agile.Bug.Bug.Deployment/Controls/Deployments",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "DeploymentsControl",
+                    "id": "Deployments",
+                    "metadata": "",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            },
+            {
+                "name": "Agile.Bug.Bug.Development/Controls/Development",
+                "method": "PATCH",
+                "payload": {
+                    "order": null,
+                    "isContribution": false,
+                    "label": "",
+                    "visible": false,
+                    "controlType": "LinksControl",
+                    "id": "Development",
+                    "metadata": "<LinksControlOptions ViewMode=\"List\" ZeroDataExperience=\"Development\" ShowCallToAction=\"true\"><ListViewOptions GroupLinks=\"false\"></ListViewOptions><LinkFilters><ExternalLinkFilter Type=\"Build\" /><ExternalLinkFilter Type=\"Integrated in build\" /><ExternalLinkFilter Type=\"Pull Request\" /><ExternalLinkFilter Type=\"Branch\" /><ExternalLinkFilter Type=\"Fixed in Commit\" /><ExternalLinkFilter Type=\"Fixed in Changeset\" /><ExternalLinkFilter Type=\"Source Code File\" /><ExternalLinkFilter Type=\"Found in build\" /><ExternalLinkFilter Type=\"GitHub Pull Request\" /><ExternalLinkFilter Type=\"GitHub Commit\" /></LinkFilters></LinksControlOptions>",
+                    "inherited": true,
+                    "watermark": "",
+                    "contribution": null,
+                    "height": null
+                  }
+            }
+        ]
+    }
+]
